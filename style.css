@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1,h3 {
+    padding: 16px;
+}
+
+.card {
+    width: 22.7%;
+    margin: 1%;
+    height: 350px;
+    /* background-color: blue; */
+    float: left;
+    border: lightslategray 1px solid;
+    /* display: inline-block; */
+    float: left;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card p {
+    text-align: center;
+    margin-top: 14px;
+}
+
+.card:hover {
+    border: black 1px solid;
+}
+
+@media only screen and (max-width: 1000px) {
+    .card {
+        width: 30.5%;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .card {
+        width: 47.5%
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .card {
+        width: 97.5%
+    }
+}
